@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --font-NotoSans: "NotoSans", "sans-serif";
+
+  --color-neutral0: hsl(200, 60%, 99%);
+  --color-neutral100: hsl(0, 0%, 93%);
+  --color-neutral200: hsl(217, 61%, 90%);
+  --color-neutral300: hsl(0, 0%, 78%);
+  --color-neutral600: hsl(226, 11%, 37%);
+  --color-neutral700: hsl(225, 23%, 24%);
+  --color-neutral800: hsl(226, 25%, 17%);
+  --color-neutral900: hsl(227, 75%, 14%);
+
+  --color-red400: hsl(3, 86%, 64%);
+  --color-red500: hsl(3, 71%, 56%);
+  --color-red700: hsl(3, 77%, 44%);
+
+  /* linear gradients for light background */
+  --color-lightZero: #ebf2fc;
+  --color-lighthundred: #eef8f9;
+
+  /* linear gradients for dark background */
+  --color-darkZero: #040918;
+  --color-darkhundred: #091540;
+}
+
+@font-face {
+  font-family: NotoSans;
+  src: url("/assets/fonts/NotoSans-VariableFont_wdth,wght.ttf");
+}

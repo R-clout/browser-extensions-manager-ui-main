@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link href="./src/output.css" rel="stylesheet">
+
+  <title>Frontend Mentor | Browser extensions manager UI</title>
+
+</head>
+
+<body class="p-8 bg-linear-180 from-darkZero from-0% to-darkhundred to-100% h-100 " id="body">
+  <header class="bg-neutral700 p-2 flex items-center rounded-lg justify-between w-full" id="header">
+    <img src="./assets/images/logo.svg" alt="" class="" />
+    <div class="p-2 bg-neutral600 rounded-lg">
+      <img src="./assets/images/icon-sun.svg" alt="icon-sun" id="change-bgDark" class="">
+      <img src="./assets/images/icon-moon.svg" alt="icon-moon" id="change-bgLight" class="hidden">
+    </div>
+  </header>
+  <main class="my-10">
+    <div class="text-neutral0 text-center font-NotoSans" id="titleOptions">
+      <h1 class="text-3xl font-bold">Extensions List</h1>
+      <div class="flex justify-around items-center my-4">
+        <div class="border p-4 rounded-3xl ">All</div>
+        <div class="border p-4 rounded-3xl">Active</div>
+        <div class="border p-4 rounded-3xl">In-Active</div>
+      </div>
+    </div>
+
+    <ul>
+      <li class="border flex flex-col gap-4 p-2">
+        <div class="flex gap-4 items-start">
+          <img src="./assets/images/logo-devlens.svg" alt="dev-lens">
+          <div>
+            <h2 class="text-xl">Dev Lens</h2>
+            <p>Quickly inspect page layout and visualize elements boundaries</p>
+          </div>
+        </div>
+        <div class="flex justify-between">
+          <button>Remove</button>
+          
+        </div>
+      </li>
+    </ul>
+  </main>
+  <footer>
+
+  </footer>
+
+
+
+
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
